@@ -234,6 +234,7 @@
     .main-title{ 
        font-size: smaller;
        margin-top: 130px;
+       height: 250px;
     }
     .main-title img{ 
       width: 180px; 
