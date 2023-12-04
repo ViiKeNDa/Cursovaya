@@ -8,6 +8,14 @@
     }
     
 }
+
+
+@media (max-width: 480px) {
+    .main-title{ 
+        height: 150px;
+    }
+    
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Создаем 3 колонки с равной шириной */
@@ -162,7 +170,7 @@ div>span{
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 800px) {
     .grid {
         height: auto;
         grid-template-columns: repeat(2, 1fr);
@@ -188,3 +196,4 @@ div>span{
         }
     }
 }
+

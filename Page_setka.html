@@ -32,10 +32,9 @@
             <li><a href = "Page_videos.html"> Видео </a></li>
         </ul>
 
-        <form action="" method="get" id="searchform">
-            <input type="text" class = "search" placeholder="Искать на сайте...">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+        <div class = "lozung"> 
+            <h1> Медитация - жизнь!</h1>
+        </div>
     </nav>
 </header>
 <body>
@@ -101,16 +100,23 @@
         <div class="footer-container">
             <div class="about">
                 <h2>О сайте</h2>
-                <p>Все подкасты и аудио-книги можно найти на Яндекс музыке.</p>
+                <p>Все подкасты и аудио-книги можно найти  </p> 
+                <p> на Яндекс музыке.</p>
             </div>
 
             <div class="author">
                 <h2>О разработчике </h2>
-                <p> Шурша Ира ИКБО-36-22 </p>
+                <p> Шурша Ирина Александровна ИКБО-36-22 </p>
             </div>
         </div>
     </footer>
 
+
+    <script>
+        $('.nav-toggle').on('click', function(){
+        $('#menu').toggleClass('active');
+        });
+    </script>
 </body>
 
 </html>
