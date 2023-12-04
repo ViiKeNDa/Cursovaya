@@ -1,0 +1,16 @@
+
+.widget-point-list li:last-child {
+   border-bottom: none;
+}
+.widget-point-list li a {
+   color: #626262;
+   margin-right: 6px;
+   font-style: normal;
+}
+.widget-point-list li a:before {
+   content: "\f105";
+   display: inline-block;
+   font-family: 'FontAwesome';
+   margin-right: 10px;
+   color: #c6c6c6;
+}
