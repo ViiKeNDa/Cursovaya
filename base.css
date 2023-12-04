@@ -18,7 +18,7 @@ img{
     display: block;
 }
 h1, h2, h3{
-    font-family: 'Barlow', cursive;
+    font-family: 'Barlow', sans-serif;
 }
 body{
     font-family: 'Open Sans', arial, sans-serif;
