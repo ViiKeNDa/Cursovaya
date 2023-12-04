@@ -6,7 +6,7 @@ header{
     margin-bottom: 30px;
     position: absolute;
     display: flex;
-    font-family: 'Croissant One', cursive;
+    font-family: 'Barlow', sans-serif;
 }
 /*теперь логотип*/
 .logo{
@@ -23,7 +23,6 @@ header{
     margin: auto 0; 
     text-align: center;
     text-shadow: 2px 2px 1px  rgba(0, 0, 0, .4);
-    font-family: 'Croissant One';
 }
 .logo span:nth-child(odd) { /*нечетные дочерние эл-ты*/
     background: #EF5A42;
@@ -55,20 +54,6 @@ header{
  }
  #menu li:last-child{ 
     margin-right: 0; 
- }
- /*поисковик*/
-.lozung{
-    float: right;
-    margin-left: 30px;
-    display: block;
-    position: relative;
-    background-color: rgb(255, 239, 220);
-    border-radius: 10px;
-    padding: 10px;
- }
- .lozung h1{ 
-   text-transform: uppercase; 
-   text-shadow: 2px 2px 1px  rgba(0, 0, 0, 0.226);
  }
 
  /*скрываем менюшку*/
@@ -162,11 +147,6 @@ header{
     /* позиционируем меню на увеличившуюся высоту шапки */
     #menu {
        top: 118px;
-    }
-    /* позиционируем форму поиска по левому краю */
-    .lozung {
-       float: left;
-       margin-left: 0;
     }
     
  }

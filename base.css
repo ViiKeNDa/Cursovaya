@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Croissant+One?subset=latin&noto.script=Latn);
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 *, *:after, *:before { /* для всех эл-тов */
     box-sizing: border-box;
     padding: 0;
@@ -18,7 +18,7 @@ img{
     display: block;
 }
 h1, h2, h3{
-    font-family: 'Croissant One', cursive;
+    font-family: 'Barlow', cursive;
 }
 body{
     font-family: 'Open Sans', arial, sans-serif;
